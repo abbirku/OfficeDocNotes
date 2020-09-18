@@ -1,0 +1,11 @@
+Task
+====
+Deadline: 16/09/2020
+1. Create a form library of Formik.
+2. Handle onchange event of each field.
+3. On submit print these changed data on console.
+4. Populate the field by API data.
+
+Dateline: 22/09/2020
+5. Create a solid implementation of two modules of existing project using created Formik form library, 
+   redux and api calling.

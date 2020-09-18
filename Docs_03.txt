@@ -1,0 +1,28 @@
+Admin themes:
+=============
+coreui
+
+ReactJs Library & Framework
+===========================
+Formik (Form handler)
+Material-UI (ReactJs Framework)
+formik-material-ui (Combination of Formik and Material-UI)
+https://react-bootstrap.github.io (Library)
+https://reactstrap.github.io (Library)
+
+
+Note:
+=====
+1. react-bootstrap for container layout maintaining.
+2. Formik for form handling.
+3. Yup for value parsing and validation.
+4. Material-UI for React components for faster and easier web development.
+
+5. formik-material-ui for combining formik form handling and react component.
+
+
+Take management:
+================
+ClickUp
+
+"start": "set PORT=3006 && react-scripts start",

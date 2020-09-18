@@ -1,0 +1,97 @@
+General Features:
+=================
+Security
+Personalized Dashboard
+Data analysis
+Web technology
+Ease of Operation
+
+Software Modules:
+=================
+PIIS -> Personnel intelligence information system
+RPIS -> Retried personnel information system
+Treat Library
+Digital Archive for video & Pictorial data
+Office management system
+
+Desks – Functionalities, Status & Scoping
+=========================================
+Source Desk
+Foreign Intelligence Desk
+Secretariat Desk
+MSRI & Operational Intelligence Desk
+Security Desk 1, 2, 3 & 4
+Cash Desk
+Passport Desk
+Visa Desk
+ID Record & Sticker Desk
+Procurement Desk
+Aviation, Submarine & SWADS Desk
+ID card
+Electronics Surveillance & Monitoring Desk
+Nou Porikroma Desk
+Journal, Magazine & Publication Desk
+ISPR Desk
+Paper Cutting Desk
+Photocell
+Video Section
+
+Overall Scope of IDMS from Users Perspective
+============================================
+Messaging
+Task Assignment
+Remainder Checklist
+Storing Templatges
+Archiving Important Documents
+Personnel Records with security clearance status
+Stock inventory records
+Accounts and fund management
+Passport management
+Digital archive for photo and video
+
+
+
+Technologies:
+=============
+Font-End:
+---------
+HTML, CSS, Bootstrap, Javascript, ReactJS, Redux
+
+BackEnd:
+========
+Framework:
+----------
+ASP.NET Core 3.1, 
+
+Database Engine:
+----------------
+MySql
+
+Server Application:
+-------------------
+Kestrel
+Apache
+
+Data search engine:
+-------------------
+Elastic-search engine
+
+Protocal:
+---------
+HTTP/1.1
+
+Authentication/Authorization:
+-----------------------------
+JWT -> Json Web Token
+OpenId and OAuth2
+
+Architecture
+------------
+
+Questions:
+==========
+1) What is 2IC FIS?
+2) What is 2IC SNI?
+3) What is Sticker Desk?
+4) Does ACNS means Accistant Chief of Naval Staff?
+

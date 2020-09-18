@@ -1,0 +1,122 @@
+Key words and its elaboration:
+==============================
+A-->
+----
+ACNS -> 
+
+B-->
+----
+
+
+C-->
+----
+CNS ->  Chief of Naval Staff
+
+D-->
+----
+DNI -> Director of naval intelligence
+DDNI -> Deputy Director of naval intelligence
+DNO -> 
+DDOps Int -> 
+DDs
+
+E-->
+----
+
+
+F-->
+----
+FSI -> 
+
+
+G-->
+----
+
+
+H-->
+----
+
+
+I-->
+----
+IDMS -> Integrated Data Management System
+ISPR desk -> 
+
+J-->
+----
+JAG -> 
+
+K-->
+----
+
+
+L-->
+----
+
+
+M-->
+----
+MSRI -> 
+
+N-->
+----
+NS -> 
+
+
+O-->
+----
+OCI -> 
+OIC -> 
+OMS -> Office management system
+
+
+P-->
+----
+PIIS -> Personel intelligence information system
+
+Q-->
+----
+
+
+R-->
+----
+RPIS -> Retired Personel information system
+
+S-->
+----
+SRS -> System Requirement Specification
+SNI -> 
+SO
+SO(I)
+SO(CI)
+PRO-I
+PRO-II
+
+
+T-->
+----
+
+
+U-->
+----
+
+
+V-->
+----
+
+
+W-->
+----
+
+
+X-->
+----
+
+
+Y-->
+----
+
+
+Z-->
+----
+

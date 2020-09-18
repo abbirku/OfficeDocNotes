@@ -1,0 +1,30 @@
+Form component list:
+====================
+input->type text -> Complete
+input->type password -> Complete
+input->type email -> Complete
+Textarea -> Complete
+
+AutoComplete ->
+Dropdowns/Select ->
+Multiple Select/Tags -> Not sure
+
+Datetime Input ->
+DateRange Input ->
+
+Radio options -> Complete
+Checkbox options ->
+Switch ->
+
+File upload input ->
+
+
+import { Form, Field, Formik, useFormik } from "formik";
+import * as Yup from "yup";
+
+import { Box } from '@material-ui/core';
+import { TextField } from 'formik-material-ui/';
+
+import { Row, Col, Table } from 'react-bootstrap';
+
+
