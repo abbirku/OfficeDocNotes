@@ -1,0 +1,51 @@
+Formik docs
+-----------
+https://formik.org/docs/guides/form-submission
+
+Formik form values not updating with ComponentDidUpdate() in react-native
+-------------------------------------------------------------------------
+https://stackoverflow.com/questions/56060277/formik-form-values-not-updating-with-componentdidupdate-in-react-native
+
+
+Yup form validation helper docs
+-------------------------------
+https://www.npmjs.com/package/yup
+
+
+MaterialUI
+----------
+https://material-ui.com/getting-started/installation/
+
+Material-UI-Datatables
+----------------------
+https://www.npmjs.com/package/material-ui-datatables
+
+How to solve this error Can not find utils in context
+-----------------------------------------------------
+https://stackoverflow.com/questions/59954711/how-to-solve-this-error-can-not-find-utils-in-context
+
+Autocomplete Example
+--------------------
+https://stackoverflow.com/questions/59249886/react-formik-material-ui-autocomplete-how-can-i-populate-value-inside-of-autoco
+
+
+Formik Material-UI
+------------------
+https://stackworx.github.io/formik-material-ui/
+
+
+
+Format Javascript Date
+----------------------
+https://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date
+
+
+Others:
+-------
+https://codesandbox.io/s/915qlr56rp?file=/src/index.tsx:2639-2685
+
+
+
+
+
+
