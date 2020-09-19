@@ -1,0 +1,434 @@
+{
+	"info": {
+		"_postman_id": "79ef53bf-d874-4a86-b7ae-a5b68f8e437e",
+		"name": "PharmaArt",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetAllCountries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/api/country",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"country"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "GetAllCountries",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/country",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"country"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "793"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Microsoft-IIS/10.0"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ASP.NET"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Sep 2020 08:30:19 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"name\": \"Bangladesh\",\n            \"countryCode\": \"BD\",\n            \"divisions\": [],\n            \"id\": 1,\n            \"createdTime\": null,\n            \"lastModifiedTime\": null,\n            \"modifierId\": null,\n            \"modifiedBy\": null,\n            \"trackingState\": 0,\n            \"modifiedProperties\": null,\n            \"entityIdentifier\": \"00000000-0000-0000-0000-000000000000\"\n        },\n        {\n            \"name\": \"India\",\n            \"countryCode\": \"IN\",\n            \"divisions\": [],\n            \"id\": 2,\n            \"createdTime\": null,\n            \"lastModifiedTime\": null,\n            \"modifierId\": null,\n            \"modifiedBy\": null,\n            \"trackingState\": 0,\n            \"modifiedProperties\": null,\n            \"entityIdentifier\": \"00000000-0000-0000-0000-000000000000\"\n        },\n        {\n            \"name\": \"Pakistan\",\n            \"countryCode\": \"PK\",\n            \"divisions\": [],\n            \"id\": 3,\n            \"createdTime\": null,\n            \"lastModifiedTime\": null,\n            \"modifierId\": null,\n            \"modifiedBy\": null,\n            \"trackingState\": 0,\n            \"modifiedProperties\": null,\n            \"entityIdentifier\": \"00000000-0000-0000-0000-000000000000\"\n        }\n    ],\n    \"count\": 0,\n    \"success\": true,\n    \"message\": null,\n    \"statusCode\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Country By id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/api/country/1",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"country",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Country By id",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/country/1",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"country",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "300"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Microsoft-IIS/10.0"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ASP.NET"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Sep 2020 08:32:19 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"name\": \"Bangladesh\",\n        \"countryCode\": \"BD\",\n        \"divisions\": [],\n        \"id\": 1,\n        \"createdTime\": null,\n        \"lastModifiedTime\": null,\n        \"modifierId\": null,\n        \"modifiedBy\": null,\n        \"trackingState\": 0,\n        \"modifiedProperties\": null,\n        \"entityIdentifier\": \"00000000-0000-0000-0000-000000000000\"\n    },\n    \"success\": true,\n    \"message\": null,\n    \"statusCode\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Add Country",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Name\": \"United State Of America\",\r\n    \"CountryCode\": \"US\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}/api/country",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"country"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Add Country",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Name\": \"United State Of America\",\r\n    \"CountryCode\": \"US\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/api/country",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"country"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "393"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Microsoft-IIS/10.0"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ASP.NET"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Sep 2020 08:47:13 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"name\": \"United State Of America\",\n        \"countryCode\": \"US\",\n        \"divisions\": [],\n        \"id\": 6,\n        \"createdTime\": \"2020-09-19T14:47:13.3457455+06:00\",\n        \"lastModifiedTime\": \"2020-09-19T14:47:13.3457836+06:00\",\n        \"modifierId\": null,\n        \"modifiedBy\": null,\n        \"trackingState\": 1,\n        \"modifiedProperties\": null,\n        \"entityIdentifier\": \"00000000-0000-0000-0000-000000000000\"\n    },\n    \"success\": true,\n    \"message\": \"Successfully Created\",\n    \"statusCode\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Edit Country",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\": \"1\",\r\n    \"Name\": \"BangladeshIFG\",\r\n    \"CountryCode\": \"BD\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URL}}/api/country/1",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"country",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Edit Country",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Id\": \"1\",\r\n    \"Name\": \"BangladeshIFG\",\r\n    \"CountryCode\": \"BD\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/api/country/1",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"country",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "384"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Microsoft-IIS/10.0"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ASP.NET"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Sep 2020 09:01:46 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"name\": \"BangladeshIFG\",\n        \"countryCode\": \"BD\",\n        \"divisions\": [],\n        \"id\": 1,\n        \"createdTime\": \"2020-09-19T15:01:45.4377957+06:00\",\n        \"lastModifiedTime\": \"2020-09-19T15:01:45.5675175+06:00\",\n        \"modifierId\": null,\n        \"modifiedBy\": null,\n        \"trackingState\": 2,\n        \"modifiedProperties\": null,\n        \"entityIdentifier\": \"00000000-0000-0000-0000-000000000000\"\n    },\n    \"success\": true,\n    \"message\": \"Successfully Upadated\",\n    \"statusCode\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete Country",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/api/country/6",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"country",
+						"6"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Delete Country",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/country/6",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"country",
+								"6"
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/plain"
+						},
+						{
+							"key": "Server",
+							"value": "Microsoft-IIS/10.0"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ASP.NET"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Sep 2020 09:05:29 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "System.ArgumentException: The key value at position 0 of the call to 'DbSet<Country>.Find' was of type 'Country', which does not match the property type of 'int'.\r\n   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.FindTracked(Object[] keyValues, IReadOnlyList`1& keyProperties)\r\n   at Microsoft.EntityFrameworkCore.Internal.EntityFinder`1.FindAsync(Object[] keyValues, CancellationToken cancellationToken)\r\n   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.FindAsync(Object[] keyValues, CancellationToken cancellationToken)\r\n   at URF.Core.EF.Repository`1.FindAsync(Object[] keyValues, CancellationToken cancellationToken)\r\n   at URF.Core.EF.Trackable.TrackableRepository`1.DeleteAsync(Object[] keyValues, CancellationToken cancellationToken)\r\n   at URF.Core.EF.Repository`1.DeleteAsync[TKey](TKey keyValue, CancellationToken cancellationToken)\r\n   at URF.Core.Services.Service`1.DeleteAsync[TKey](TKey keyValue, CancellationToken cancellationToken)\r\n   at PharmaArt.WebApi.Controllers.CountryController.Delete(Int32 id) in E:\\9.Office Works\\SolutionArt\\pharmaartapi\\PharmaArt\\PharmaArt.WebApi\\Controllers\\CountryController.cs:line 127\r\n   at lambda_method(Closure , Object )\r\n   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)\r\n   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)\r\n   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)\r\n   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)\r\n   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)\r\n\r\nHEADERS\r\n=======\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nCache-Control: no-cache\r\nConnection: keep-alive\r\nHost: localhost:44355\r\nUser-Agent: PostmanRuntime/7.26.5\r\nPostman-Token: e9cf9128-e69c-4895-87bd-d5b2baaa824c\r\n"
+				}
+			]
+		},
+		{
+			"name": "Get All by page No and size",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{URL}}/api/country/2/5",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"country",
+						"2",
+						"5"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get All by page",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/api/country/2/5",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"country",
+								"2",
+								"5"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "69"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Server",
+							"value": "Microsoft-IIS/10.0"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ASP.NET"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 19 Sep 2020 09:54:11 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [],\n    \"count\": 0,\n    \"success\": true,\n    \"message\": null,\n    \"statusCode\": null\n}"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}
